@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es Colombia">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title _msttexthash="607126" _msthash="0">Control de Gastos Mensuales</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="img-container">
+                <img src="./assets/img/titulo.png" />
+            </div>
+            <div class="form-group">
+                <input type="text" id="nombreGasto" placeholder="Nombre del gasto" _msplaceholder="259818" _msthash="1">
+                <input type="text" id="descripcionGasto" placeholder="Descripcion del gasto" _msplaceholder = "438178" _msthash="2">
+                <input type="number" id="valorGasto" placeholder="Valor del gasto" min="0" step="0.01" _mstplaceholder="233844" _msthash="3">
+                <button id="botonFormulario" onclick="clickBoton();" _msttexthash="199589" _msthash="4">Agregar Gasto</button>
+                
+            </div>
+                 <ul id="listaDeGastos"></ul>
+                <div class="total">
+                    <font _mstmutation="1" _msttexthash="333294" _msthash="6">
+                        "Total Mensual: US$"
+                        <span id="totalGastos" _mstmutation="1">0.00</span>
+                    </font>
+                 
+                </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
